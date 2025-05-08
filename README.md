@@ -1,50 +1,41 @@
-🔊 Buzzer Python interactif – Personnalisable avec interface graphique
-Ce projet est une application Python avec interface graphique (Tkinter) qui simule un buzzer sonore entièrement personnalisable.
+# 🔊 Buzzer Interactif – Application Python Personnalisable
 
-✨ Fonctionnalités principales :
-🔘 Buzzer : un bouton rouge déclenche un son à chaque clic.
+Une petite application fun et visuelle qui simule un **buzzer sonore** avec une interface graphique personnalisable !
 
-🎨 Personnalisation du fond :
+---
 
-Choix parmi une palette de couleurs.
+## 🚀 Fonctionnalités
 
-Importation d’une image de fond personnalisée.
+✅ **Buzzer principal** :  
+> Un bouton rouge cliquable qui joue un son (fichier `.mp3` ou `.wav`)
 
-🔊 Son personnalisé :
+🎨 **Personnalisation de l’arrière-plan** :
+- Choix parmi de nombreuses couleurs
+- Importation d'une **image de fond personnalisée**
 
-Utilisation du son par défaut inclus (buzzersong.mp3).
+🔊 **Gestion du son** :
+- Son par défaut inclus (`buzzersong.mp3`)
+- Importation de ton propre son
 
-Importation de ton propre son .mp3 ou .wav.
+🖲️ **Personnalisation du bouton** :
+- Taille, forme (rectangle ou carré)
+- Ajout d'une **image sur le bouton**
+- Réinitialisation rapide aux réglages d'origine
 
-🎛️ Personnalisation du bouton :
+📋 **Menu complet** :
+- 🎵 Menu des sons
+- 🎨 Changement d'apparence
+- ℹ️ Section “Plus d'infos” (contact, dons, suggestions)
+- ❌ Fermeture rapide
 
-Modifier la taille et la forme.
+---
 
-Ajouter une image sur le bouton.
+## 📦 Installation
 
-Réinitialiser aux valeurs par défaut.
+### 1. Prérequis
 
-💡 Menu supplémentaire :
+- Python **3.10 ou supérieur**
+- Modules requis : `pygame`, `Pillow`
 
-Infos de contact, suggestions, PayPal.
-
-Quitter l’application proprement.
-
-🛠️ Dépendances
-Python 3.x
-
-pygame
-
-Pillow
-
-Installe-les avec :
-
-bash
-Copier
-Modifier
+```bash
 pip install pygame pillow
-🚀 Lancer le script
-bash
-Copier
-Modifier
-python buzzer.py
